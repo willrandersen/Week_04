@@ -10,7 +10,7 @@ class App extends Component {
 
   addParameter = () => {
     this.setState({
-      todos: [...this.state.todos, "Get more boba"]
+      todos: [...this.state, ""]
     })
   };
 
