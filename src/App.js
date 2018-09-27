@@ -21,7 +21,7 @@ class App extends Component {
         {this.state.todos.map(x => (
           <ToDoListItem todo={x} />
         ))}
-        <button onClick={this.addParameter}> Add todo</button>
+        <button onClick={this.addParameter}> Remove todo</button>
       </div>
     );
   }
